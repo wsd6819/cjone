@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CJ ONE</title>
+  <!-- 파비콘 넣기 -->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <!-- 스타일 -->
+  <link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/css-sprites.css">
+  <!-- js -->
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script type="text/javascript" src="http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+  <script src="js/main.js"></script>
+</head>
+
+<body>
+  <!-- header-머리글 -->
+  <header class="center">
+    <h1 class="logo">
+     <img src="img/logo.gif" alt="로고">
+   </h1>
+    <!-- 네비게이션 -->
+    <nav>
+      <ul class="gnb-nav">
+        <li>
+          <a href="#">CJ ONE 소개</a>
+          <ul class="dropdown">
+            <li></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">포인트/카드</a>
+          <ul class="dropdown">
+            <li><a href="#">포인트 적립/사용</a></li>
+            <li><a href="#">제휴 브랜드</a></li>
+            <li><a href="#">보너스 포인트</a></li>
+            <li><a href="#">포인트 기부</a></li>
+            <li><a href="#">포인트 선물</a></li>
+            <li><a href="#">포인트 전환</a></li>
+            <li><a href="#">기프트 포인트 등록</a></li>
+            <li><a href="#">제휴 신용카드 안내</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">이벤트/쿠폰</a>
+          <ul class="dropdown">
+            <li><a href="#">이벤트</a></li>
+            <li><a href="#">쿠폰</a></li>
+            <li><a href="#">득템프</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">기프트카드</a>
+          <ul class="dropdown">
+            <li><a href="#">나의 기프트카드</a></li>
+            <li><a href="#">등록</a></li>
+            <li><a href="#">구매/선물</a></li>
+            <li><a href="#">선물함</a></li>
+            <li><a href="#">기프트카드 전환</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">나의 ONE</a>
+          <ul class="dropdown">
+            <li><a href="#">나의ONE</a></li>
+            <li><a href="#">나의포인트</a></li>
+            <li><a href="#">카드 관리/변경</a></li>
+            <li><a href="#">나의 쿠폰</a></li>
+            <li><a href="#">응모한 이벤트</a></li>
+            <li><a href="#">ONE콘 구매내역</a></li>
+            <li><a href="#">나의 상담내역</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="sub-bg"></div>
+
+      <!-- icon -->
+      <div class="icon">
+        <a href="#" class="css-sprite-iconicon1_1"></a>
+        <a href="#" class="css-sprite-iconicon2_1"></a>
+        <a href="#" class="css-sprite-iconicon3_1"></a>
+        <a href="#" class="css-sprite-iconicon4_1"></a>
+        <a href="#" class="css-sprite-iconicon5_1"></a>
+      </div>
+        <div class="search_bar">
+          <div class="wrap">
+            <input type="text">
+            <a href="#" class="css-sprite-iconsearch"></a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- header end -->
+  <!-- section start -->
+  <section>
+    <!-- basic -->
+    <article class="color">
+      <div class="center">
+        <div class="contents_1">
+          <div class="backgroundanimation">
+            <img class="down" src="img/card/bg_circle02.png" alt="">
+            <img class="up" src="img/card/bg_circle_doughnut01.png" alt="">
+            <img class="down" src="img/card/bg_circle_doughnut02.png" alt="">
+            <img class="up" src="img/card/bg_circle02.png" alt="">
+            <div class="left">
+              <div class="container">
+                <a href="#">
+                  <img src="img/card/card.png" alt="">
+                  <img src="img/card/card_basicline.png" alt="">
+                  <p>카드를 등록하세요</p>
+                </a>
+              </div>
+            </div>
+            <div class="right">
+              <div class="oneinfo">
+                <p>이제,CJ ONE하세요!</p>
+                <ul>
+                  <li>최대 10% ONE 포인트 적립</li>
+                  <li>최대2배 보너스포인트 추가 적립</li>
+                  <li>현금처럼 사용하는 ONE 포인트</li>
+                  <li>CJ ONE 회원끼리 포인트 선물하기</li>
+                  <li>제휴포인트/상품권을 포인트로 전환하기</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- popup -->
+          <div id="one"class="popup one">
+            <i class="fas fa-exclamation-circle"></i>
+            <p>로그인 후 이용해주세요</p>
+            <a class="login" href="#">로그인/회원가입</a>
+            <a href="#" class="close-button">&#10006;</a>
+          </div>
+          <div id="two" class="popup two">
+            <p>카드 번호를 입력하세요</p>
+            <div class="text">
+              <input type="text">
+              <input type="text">
+              <input type="text">
+              <input type="text">
+            </div>
+            <button>확인</button>
+          </div>
+          <div id="mypoint">
+            <div class="mypoint_left">
+              <p>나의 ONE 포인트</p>
+              <p>13,020p</p>
+              <ul>
+                <li><span class="tleft">사용가능포인트</span><span class="tright">13,020p</span></li>
+                <li><span class="tleft">가용예정포인트</span><span class="tright">0p</span></li>
+                <li><span class="tleft">당월소멸예정포인트</span><span class="tright">0p</span></li>
+              </ul>
+            </div>
+            <div class="mypoint_right">
+              <p>보너스 포인트 적립현황</p>
+              <div class="line">
+                <span class="linecircle_1"></span>
+                <span class="linecircle_2"></span>
+                <span class="linecircle_3"></span>
+                <span class="linecircle_4"></span>
+                <span class="border"></span>
+                <p>50%<br>추가적립</p>
+                <p>100%<br>추가적립</p>
+            </div>
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </article>
+    <article class="contents_2">
+      <div class="center">
+        <div class="text_area1">
+          <p>CJ ONE과 함께 다양한 라이프를 즐기세요!</p>
+          <p>최근 3개월간 이용한 브랜드 추천 또는 추천 브랜드의 혜택정보를 한눈에 확인하세요.</p>
+        </div>
+        <!-- slick 슬라이드-->
+        <div class="slide_1">
+          <div><img src="img/slide/01.jpg" alt=""></div>
+          <div><img src="img/slide/02.jpg" alt=""></div>
+          <div><img src="img/slide/03.jpg" alt=""></div>
+          <div><img src="img/slide/04.jpg" alt=""></div>
+          <div><img src="img/slide/05.jpg" alt=""></div>
+          <div><img src="img/slide/06.jpg" alt=""></div>
+          <div><img src="img/slide/07.jpg" alt=""></div>
+          <div><img src="img/slide/08.jpg" alt=""></div>
+          <div><img src="img/slide/09.jpg" alt=""></div>
+          <div><img src="img/slide/10.jpg" alt=""></div>
+        </div>
+      </div>
+    </article>
+    <!-- slick end -->
+
+
+    <article class="contents_3">
+      <div class="center">
+        <!-- 포인트적립처안내 -->
+        <li>
+          <a href="#" class="circle active">
+            <img class="back" src="img/etc/circle1_1.png" alt="">
+            <img class="front" src="img/etc/circle2_1.png" alt="">
+          </a>
+          <div class="logolist contents-box" style="display:block;">
+            <ul>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                  <img src="img/brand/brand_1.png" alt="CGV">
+                  <div class="detail_info">
+                    <p>결제 금액의 5% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                  <img src="img/brand/brand_2.png" alt="englishgem">
+                  <div class="detail_info">
+                    <p>결제 금액의 1% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_3.png" alt="mnet">
+                  <div class="detail_info">
+                    <p>결제 금액의 2% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_4.png" alt="tving">
+                  <div class="detail_info">
+                    <p>결제 금액의 5% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_5.png" alt="cj문화재단">
+                  <div class="detail_info">
+                    <p>결제 금액의 5% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_6.png" alt="vigwing">
+                  <div class="detail_info">
+                    <p>구매 금액의 5% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_7.png" alt="hello">
+                  <div class="detail_info">
+                    <p>결제 금액의 2% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_8.png" alt="olive young">
+                  <div class="detail_info">
+                    <p>결제 금액의 0.1%~0.3%적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_9.png" alt="cj mall">
+                  <div class="detail_info">
+                    <p>결제 금액의 0.1%~0.3%적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_10.png" alt="1st look">
+                  <div class="detail_info">
+                    <p>결제 금액의 5%적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_11.png" alt="cj on mart">
+                  <div class="detail_info">
+                    <p>결제 금액의 0.2% 익일 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_12.png" alt="cj 제일제당">
+                  <div class="detail_info">
+                    <p>결제 금액의 0.3%적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_13.png" alt="cj 오쇼핑">
+                  <div class="detail_info">
+                    <p>결제 금액의 0.2% 익일 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_14.png" alt="style on air">
+                  <div class="detail_info">
+                    <p>결제 금액의 3% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_15.png" alt="a twosome place">
+                  <div class="detail_info">
+                    <p>결제 금액의 2% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_16.png" alt="vips">
+                  <div class="detail_info">
+                    <p>결제 금액의 3% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_17.png" alt="tous le jours">
+                  <div class="detail_info">
+                    <p>결제 금액의 0.5% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_18.png" alt="계절밥상">
+                  <div class="detail_info">
+                    <p>결제 금액의 0.5% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_19.png" alt="제일제면소">
+                  <div class="detail_info">
+                    <p>결제 금액의 0.5% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_20.png" alt="the place">
+                  <div class="detail_info">
+                    <p>결제 금액의 0.5% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_21.png" alt="cj foodworld">
+                  <div class="detail_info">
+                    <p>결제 금액의 0.5% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_22.png" alt="vips burger">
+                  <div class="detail_info">
+                    <p>결제 금액의 0.5% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_23.png" alt="juice solution">
+                  <div class="detail_info">
+                    <p>결제 금액의 2% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_24.png" alt="worldistours">
+                  <div class="detail_info">
+                    <p>결제 금액의 2% 적립</p>
+                  </div>
+                </a>
+              </li>
+              <li class="alliance_item">
+                <a href="#" class="item_link">
+                <img src="img/brand/brand_25.png" alt="대한통운">
+                  <div class="detail_info">
+                    <p>택배 운임의 2% 적립</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- 보너스 포인트 안내 -->
+        <li>
+          <a href="#" class="circle">
+            <img class="back" src="img/etc/circle1_2.png" alt="">
+            <img class="front" src="img/etc/circle2_2.png" alt="">
+          </a>
+          <div class="bonuspoint contents-box">
+            <dl>
+              <dt>최대 2배 추가 적립되는 보너스포인트 란?</dt>
+              <dd>매 월 1일부터 말 일까지 이용해주신 CJ ONE 제휴 브랜드 수에 따라<br>이용건 별 기본 적립금의 최대 100%까지 추가 적립해 드리는 CJ ONE만의 혜택입니다.</dd>
+            </dl>
+            <p>제휴 브랜드 4개 이용 시 50%추가적립!</p>
+            <p>제휴 브랜드 5개 이용 시 100%추가적립!</p>
+          </div>
+        </li>
+        <!-- 쿠폰혜택안내 -->
+        <li>
+          <a href="#" class="circle">
+            <img class="back" src="img/etc/circle1_3.png" alt="">
+            <img class="front" src="img/etc/circle2_3.png" alt="">
+          </a>
+          <div class="col_box contents-box">
+            <div class="logo_area">
+              <ul>
+                <li class="item"><a href="#cgv"><img src="img/brand/brand_1.png" alt="cgv"></a></li>
+                <li class="item"><a href="#olive_young"><img src="img/brand/brand_8.png" alt="ovlie young"></a></li>
+                <li class="item"><a href="#cjonmart"><img src="img/brand/brand_11.png" alt="cj on"></a></li>
+                <li class="item"><a href="#cjmall"><img src="img/brand/brand_9.png" alt="cj mall"></a></li>
+                <li class="item"><a href="#vips"><img src="img/brand/brand_16.png" alt="vips"></a></li>
+                <li class="item"><a href="#cheiljemyunso"><img src="img/brand/brand_19.png" alt="제일제면소"></a></li>
+                <li class="item"><a href="#theplace"><img src="img/brand/brand_20.png" alt="더플레이스"></a></li>
+              </ul>
+            </div>
+            <div class="text_area">
+              <div class="view">
+                <div id="cgv" class="inner">
+                  <table id="pg_1" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[cgv][가입축하]매점에서 CJ ONE APP 제시하고 콤보 구매시 1,000 원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>1,000원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>신규 가입 시 즉시 발급 각 쿠폰 별 사용 기간상이</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>영화 관람 티켓 출력 시 지류 쿠폰 발급, 현장 매점에서 상품 교환</td>
+                    </tr>
+                    <tr>
+                      <th>쿠폰발급</th>
+                      <td>CJ ONE 앱/홈페이지 내에서 CJ ONE 쿠폰 확인</td>
+                    </tr>
+                    <tr>
+                      <th>사용방법</th>
+                      <td>매장에서 직원에게 CJ ONE 앱 혹은 CJ ONE 카드 제시</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                        현장 매점에서만 사용 가능(온라인 매점 사용불가)<br> cgv 콤보만 가능<br> 팝콘 맛 변경만 가능(고소, 달콤, 어니언, 치즈)<br> 음료 사이즈 변경 불가(탄산 중, 아이스티, 헛개수 22oz, 에이드 M만 가능)<br> 일부 극장 제외 : 청주터미널, 씨네키즈<br> 극장에 따라 제공 상품 변경 가능<br>
+                      </td>
+                    </tr>
+                  </table>
+                  <table id="pg_2" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[CGV] 생일콤보</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>1,000원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>생일 전후 7일 내 영화 관람시 쿠폰 발급, 동일 기한내 사용<br>
+                          예) 2월 16일이 생일이라면 2월 9일부터 2월 23일까지 영화 관람 시<br>
+                          CGV 생일콤보 무료쿠폰 증정, 2월 9일부터 23일까지 사용 가능</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>영화 관람 티켓 출력 시 지류 쿠폰 발급, 현장 매점에서 상품 교환</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                        현장 매점에서만 사용 가능(온라인 매점 사용불가)<br> cgv 콤보만 가능<br> 팝콘 맛 변경만 가능(고소, 달콤, 어니언, 치즈)<br> 음료 사이즈 변경 불가(탄산 중, 아이스티, 헛개수 22oz, 에이드 M만 가능)<br> 일부 극장 제외 : 청주터미널, 씨네키즈<br> 극장에 따라 제공 상품 변경 가능<br>
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="view">
+                <div id="olive_young" class="inner">
+                  <table id="pg_1" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[올리브영] [가입축하]1만원 이상 구매시 1,000 원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>1,000원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>신규 가입 시 즉시 발급 각 쿠폰 별 사용 기간상이</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJ ONE 앱/홈페이지 내에서 CJ ONE 쿠폰 확인<br>
+                          사용방법 : 매장에서 직원에게 CJ ONE 앱 혹은 CJ ONE 카드 제시</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                      * 사용방법: 주문 시 CJ ONE 카드 또는 CJ ONE APP 제시<br>
+                      1만원 이상 구매시 사용 가능<br>
+                      1인 1회 사용 가능<br>
+                      타 할인혜택과 중복 불가<br>
+                      쿠폰 사용시, 타 할인혜택 중복 적용 및 제휴카드 결제 불가 (CJ멤버십 카드,The CJ카드 등)<br>
+                      상품권 등 일부 품목 사용 불가<br>
+                      제외 매장 : 온라인몰, 아울렛 매장
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="view">
+                <div id="cjonmart" class="inner">
+                  <table id="pg_1" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[CJ온마트] [가입축하]2만원이상 유료배송 시 무료배송</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>무료배송</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>신규 가입 시 즉시 발급 각 쿠폰 별 사용 기간상이</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJ온마트 홈페이지/모바일 내 My페이지에서 쿠폰 확인<br>사용방법 : CJ온마트 장바구니 결제페이지에서 쿠폰 적용</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                        전 상품 구매 시 사용가능(단, 일부상품 제외)<br>10,000원이상 유료배송 시 사용 가능<br>타 할인혜택과 중복 사용 불가
+                      </td>
+                    </tr>
+                  </table>
+                  <table id="pg_2" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[CJ온마트] [가입축하]2만원 이상 구매시 2 % 할인</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>2 % 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>신규 가입 시 즉시 발급 각 쿠폰 별 사용 기간상이</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJ온마트 홈페이지/모바일 내 My페이지에서 쿠폰 확인<br>사용방법 : CJ온마트 장바구니 결제페이지에서 쿠폰 적용</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                        전 상품 구매 시 사용가능(단, 일부상품 제외)<br>10,000원이상 유료배송 시 사용 가능<br>타 할인혜택과 중복 사용 불가
+                      </td>
+                    </tr>
+                  </table>
+                  <table id="pg_3" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[CJ온마트] [가입축하]4만원 이상 구매시 15 % 할인</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>15 % 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>신규 가입 시 즉시 발급 각 쿠폰 별 사용 기간상이</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJ온마트 홈페이지/모바일 내 My페이지에서 쿠폰 확인<br>사용방법 : CJ온마트 장바구니 결제페이지에서 쿠폰 적용</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                        전 상품 구매 시 사용가능(단, 일부상품 제외)<br>10,000원이상 유료배송 시 사용 가능<br>타 할인혜택과 중복 사용 불가
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="view">
+                <div id="cjmall" class="inner">
+                  <table id="pg_1" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[CJmall] [가입축하]1개 상품 기준 7만원 이상 구매시 7,000 원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>7,000원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>신규 가입 시 즉시 발급 각 쿠폰 별 사용 기간상이</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJmall 홈페이지/모바일 내 My페이지에서 쿠폰 확인<br>사용방법 : CJmall 장바구니 결제페이지에서 쿠폰 적용</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                        1개 상품 기준 7만원 이상 제품에 사용 가능<br>일부 상품 제외<br>주문 취소시 쿠폰 재발급. 단, 배송 완료 이후 반품은 재발급 불가<br>타할인 쿠폰과 중복 사용 가능
+                      </td>
+                    </tr>
+                  </table>
+                  <table id="pg_2" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[CJmall] [가입축하]1개 상품 기준 3만원 이상 구매시 10 % 할인</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>10% 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>신규 가입 시 즉시 발급 각 쿠폰 별 사용 기간상이</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJmall 홈페이지/모바일 내 My페이지에서 쿠폰 확인<br>사용방법 : CJmall 장바구니 결제페이지에서 쿠폰 적용</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                        1개 상품 기준 7만원 이상 제품에 사용 가능<br>일부 상품 제외<br>주문 취소시 쿠폰 재발급. 단, 배송 완료 이후 반품은 재발급 불가<br>타할인 쿠폰과 중복 사용 가능
+                      </td>
+                    </tr>
+                  </table>
+                  <table id="pg_3" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[CJmall] [생일축하]1개 상품 기준 3만원 이상 상품 사용 시 3,000 원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>3,000 원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>생일 15일 전 발급 및 발급일 포함 31일간 사용<br>예) 2월 16일이 생일이라면, 2월 1일부터 3월 3일까지 사용가능</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJmall 홈페이지/모바일 내 My페이지에서 쿠폰 확인<br>사용방법 : CJmall 장바구니 결제페이지에서 쿠폰 적용</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                        1개 상품 기준 7만원 이상 제품에 사용 가능<br>일부 상품 제외<br>주문 취소시 쿠폰 재발급. 단, 배송 완료 이후 반품은 재발급 불가<br>타할인 쿠폰과 중복 사용 가능
+                      </td>
+                    </tr>
+                  </table>
+                  <table id="pg_4" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[CJmall] [생일축하]1개 상품 기준 5만원 이상 상품 구매시 5,000 원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>5,000 원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>생일 15일 전 발급 및 발급일 포함 31일간 사용<br>예) 2월 16일이 생일이라면, 2월 1일부터 3월 3일까지 사용가능</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJmall 홈페이지/모바일 내 My페이지에서 쿠폰 확인<br>사용방법 : CJmall 장바구니 결제페이지에서 쿠폰 적용</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                        1개 상품 기준 7만원 이상 제품에 사용 가능<br>일부 상품 제외<br>주문 취소시 쿠폰 재발급. 단, 배송 완료 이후 반품은 재발급 불가<br>타할인 쿠폰과 중복 사용 가능
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="view">
+                <div id="vips" class="inner">
+                  <table id="pg_1" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[빕스] [생일축하]성인 2인 이상 식사시 10,000 원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>10,000원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>생일 15일 전 발급 및 발급일 포함 60일간 사용<br>예) 2월 16일이 생일이라면, 2월 1일부터 4월 1일까지 사용가능</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJ ONE 앱/홈페이지 내에서 CJ ONE 쿠폰 확인<br>
+                          사용방법 : 매장에서 직원에게 CJ ONE 앱 혹은 CJ ONE 카드 제시</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                      * 사용방법: 주문 시 CJ ONE 카드 또는 CJ ONE APP 제시<br>
+                      성인 2인 이상 식사시 테이블당 1매 사용 가능<br>
+                      타 쿠폰/할인행사와 중복 사용 불가<br>
+                      타 제휴 할인과 중복 사용 불가
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="view">
+                <div id="cheiljemyunso" class="inner">
+                  <table id="pg_1" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[제일제면소] [생일축하]1만원 이상 구매시 3,000 원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>3,000원 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>생일 15일 전 발급 및 발급일 포함 60일간 사용<br>예) 2월 16일이 생일이라면, 2월 1일부터 4월 1일까지 사용가능</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJ ONE 앱/홈페이지 내에서 CJ ONE 쿠폰 확인<br>
+                          사용방법 : 매장에서 직원에게 CJ ONE 앱 혹은 CJ ONE 카드 제시</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                      * 사용방법: 주문 시 CJ ONE 카드 또는 CJ ONE APP 제시<br>
+                      1만원 이상 구매시 테이블 당 1매 사용가능<br>
+                      타 쿠폰 / 할인행사와 중복 사용 불가<br>
+                      타 제휴 할인카드와 중복 사용 가능 (단, CJ 임직원 카드와 중복 사용 불가)<br>
+                      일부 특수매장 사용불가<br>
+                      제일제면소 전 매장 사용 가능<br>
+                      도시락/TO－GO 주문시 사용 불가
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+              <div class="view">
+                <div id="theplace" class="inner">
+                  <table id="pg_1" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[더플레이스] [생일축하]1만원 이상 결제 시 생일에이드 1잔 무료쿠폰</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>무료쿠폰</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>생일 15일 전 발급 및 발급일 포함 60일간 사용<br>예) 2월 16일이 생일이라면, 2월 1일부터 4월 1일까지 사용가능</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJone 앱/홈페이지에서 CJ one쿠폰 확인<br>사용방법 :  매장에서 직원에게 CJ ONE 앱 혹은 CJ ONE 카드 제시</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                        * 사용방법: 주문 시 CJ ONE 카드 또는 CJ ONE APP 제시<br>
+                        1만원 이상 결제 시 테이블 당 1매 사용 가능<br>
+                        타 쿠폰/할인행사/제휴할인카드와 중복 사용 불가 (단, 별자리 와인 50% 할인 쿠폰과는 동시 사용 가능)
+                      </td>
+                    </tr>
+                  </table>
+                  <table id="pg_2" class="page">
+                    <tr>
+                      <th>쿠폰명</th>
+                      <td>[더플레이스] [생일축하]1만원 이상 결제 시 와인 50 % 할인</td>
+                    </tr>
+                    <tr>
+                      <th>혜택</th>
+                      <td>50 % 할인</td>
+                    </tr>
+                    <tr>
+                      <th>사용기간</th>
+                      <td>생일 15일 전 발급 및 발급일 포함 60일간 사용<br>예) 2월 16일이 생일이라면, 2월 1일부터 4월 1일까지 사용가능</td>
+                    </tr>
+                    <tr>
+                      <th>이용방법</th>
+                      <td>쿠폰발급 : CJone 앱/홈페이지에서 CJ one쿠폰 확인<br>사용방법 :  매장에서 직원에게 CJ ONE 앱 혹은 CJ ONE 카드 제시</td>
+                    </tr>
+                    <tr>
+                      <th>사용조건</th>
+                      <td>
+                        * 사용방법: 주문 시 CJ ONE 카드 또는 CJ ONE APP 제시<br>
+                        1만원 이상 결제 시 테이블 당 1매 사용 가능<br>
+                        타 쿠폰/할인행사/제휴할인카드와 중복 사용 불가 (단, 별자리 와인 50% 할인 쿠폰과는 동시 사용 가능)
+                      </td>
+                    </tr>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </article>
+    <!-- point end -->
+    <article class="contents_4">
+      <div class="center">
+        <div class="slide_2">
+          <img src="img/slide/11.jpg" alt="">
+          <img src="img/slide/12.jpg" alt="">
+          <img src="img/slide/13.jpg" alt="">
+        </div>
+      </div>
+    </article>
+    <article class="contents_5">
+      <div class="center">
+        <div class="bg">
+          <p>가장 핫한 아이템과 컨텐츠를<br>CJ ONE 포인트를 더욱 가볍게 즐기세요!</p>
+          <img src="img/village/bg.jpg" alt="">
+        </div>
+        <div class="bulidings">
+          <a class="onester" href="#"><img src="img/village/onster.png" alt="원스터"></a>
+          <ul class="buliding_list">
+            <li>
+              <a href="#" class="buliding"><img src="img/village/box1.png" alt="mnet"></a>
+              <div class="hover_img">
+                <img src="img/village/light.png" alt="">
+                <a href="#"><img src="img/village/img1.png" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="buliding"><img src="img/village/box2.png" alt="cgv"></a>
+              <div class="hover_img">
+                <img src="img/village/light.png" alt="">
+                <a href="#"><img src="img/village/img2.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="buliding"><img src="img/village/box3.png" alt="vips"></a>
+              <div class="hover_img">
+                <img src="img/village/light.png" alt="">
+                <a href="#"><img src="img/village/img3.jpg" alt=""></a>
+              </div>
+            </li>
+            <li>
+              <a href="#" class="buliding"><img src="img/village/box4.png" alt="olive_young"></a>
+              <div class="hover_img">
+                <img src="img/village/light.png" alt="">
+                <a href="#"><img src="img/village/img4.jpg" alt=""></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </section>
+</body>
+
+</html>
